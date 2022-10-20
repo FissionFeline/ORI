@@ -29,23 +29,72 @@
     <title>
         ORI's Commission Website
     </title>
+    <style>
+        #TL {
+            background-color: #f7716b;
+        }
+        
+        #TL:link {
+            color: rgb(24, 23, 23);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+        #TL:visited {
+            color: rgb(22, 22, 22);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        
+        .button-nav {
+            background-color: #f7716b;
+            border-color: #f7716b;
+            border: 1ch;
+        }
+        
+        .rounded-seperator {
+            border-top: 8px solid #f7716b;
+            border-radius: 5px;
+            background-color: #f7716b;
+            color: #f7716b;
+        }
+        
+        .img_main {
+            max-width: 50ch;
+            max-height: 50ch;
+            width: min-device-width;
+            height: min-device-width;
+        }
+    </style>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <ul class="nav nav-pills nav-fill">
+                <li class="nav-item" style="margin-right: 1ch;">
+                    <a id="TL" href="index.html" class="button-nav">
+                        <div class="shadow-lg p-3 mb-3 align-middle text-center button-nav rounded"> <span class="name pull-middle align-middle me-md-5" style="font-size: 4ch;">Return home</span></div>
+                    </a>
+                </li>
+                <li class="nav-item" style="margin-right: 1ch;">
+                    <a id="TL" href="gallery.html" class="button-nav">
+                        <div class="shadow-lg p-3 mb-3 align-middle text-center button-nav rounded"> <span class="name pull-middle align-middle me-md-5" style="font-size: 4ch;">Gallery</span></div>
+                    </a>
+                </li>
+                <li class="nav-item" style="margin-right: 1ch;">
+                    <a id="TL" href="contact.html" class="button-nav">
+                        <div class="shadow-lg p-3 mb-3 align-middle text-center button-nav rounded"> <span class="name pull-middle align-middle me-md-5" style="font-size: 4ch;">Contact</span></div>
+                    </a>
+                </li>
+            </ul>
+            <!-- Left links -->
+        </div>
+
+        </div>
+    </nav>
     <div class="container col-xxl-8 px-4 py-5 main_gradient" id="fade">
-        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg main_gradient " style=" background-image: linear-gradient(
-            65deg,
-            hsl(347deg 45% 33%) 0%,
-            hsl(340deg 42% 32%) 15%,
-            hsl(334deg 39% 30%) 34%,
-            hsl(327deg 34% 29%) 53%,
-            hsl(317deg 29% 27%) 69%,
-            hsl(305deg 23% 26%) 81%,
-            hsl(288deg 21% 25%) 90%,
-            hsl(272deg 19% 24%) 96%,
-            hsl(258deg 17% 24%) 99%,
-            hsl(244deg 15% 23%) 100%
-          );   
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 shadow-lg main_gradient " style=" background-color:rgb(240, 240, 255)
         ">
             <img src="assets/blackMark.png" class="img-responsive center-block rounded mx-auto d-block mx-lg-auto img-fluid img_main">
             <hr class="rounded-seperator">
