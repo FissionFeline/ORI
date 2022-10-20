@@ -22,3 +22,32 @@ main_gradient {
 .text_about_me {
     color: rgb(12, 13, 14);
 }
+
+#TL {
+    background-color: #f7716b;
+}
+
+#TL:link {
+    color: rgb(24, 23, 23);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#TL:visited {
+    color: rgb(22, 22, 22);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.button-nav {
+    background-color: #f7716b;
+    border-color: #f7716b;
+    border: 1ch;
+}
+
+.rounded-seperator {
+    border-top: 8px solid #c30101;
+    border-radius: 5px;
+    background-color: #c30101;
+    color: #c30101;
+}
