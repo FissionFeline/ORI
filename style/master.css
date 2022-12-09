@@ -45,6 +45,12 @@ main_gradient {
     border: 1ch;
 }
 
+.references {
+    background-color: #bdbdbd;
+    border-color: #f7716b;
+    border: 1ch;
+}
+
 .rounded-seperator {
     border-top: 8px solid #c30101;
     border-radius: 5px;
